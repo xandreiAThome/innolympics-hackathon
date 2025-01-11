@@ -52,6 +52,7 @@ export default function Home() {
       </nav>
       <div className="flex flex-auto flex-col justify-center items-center">
         <div className="grid grid-col-1 gap-8">
+          <p className="text-center text-2xl">Logging in as...</p>
           <button
             data-ripple-light="true"
             className="rounded-md bg-dswdlightblue py-2 px-4 border border-transparent text-center text-3xl font-bold transition-all shadow-md hover:shadow-lg focus:bg-slate-400 focus:shadow-none active:bg-slate-400 hover:bg-slate-400 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2"
@@ -64,7 +65,7 @@ export default function Home() {
             data-ripple-light="true"
             className="rounded-md px-32 bg-dswdlightblue py-2 border border-transparent text-center text-3xl font-bold transition-all shadow-md hover:shadow-lg focus:bg-slate-400 focus:shadow-none active:bg-slate-400 hover:bg-slate-400 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2"
             type="button"
-            onClick={() => navigate("/applicant")}
+            onClick={() => navigate("/login")}
           >
             Social Worker
           </button>
