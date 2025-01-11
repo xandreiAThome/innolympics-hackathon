@@ -28,7 +28,7 @@ export const createAccount = async (email, password) => {
     const userCredential = await createUserWithEmailAndPassword(
       auth,
       email,
-      password,
+      password
     );
   } catch (error) {
     console.log(error);
@@ -43,7 +43,7 @@ export const loginAccount = async (email, password) => {
   const userCredential = await signInWithEmailAndPassword(
     auth,
     email,
-    password,
+    password
   );
   console.log(userCredential);
 };
