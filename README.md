@@ -9,6 +9,8 @@ Bantay Pantawid is a website portal for the Pantawid Pamilyang Pilipino Program 
 - Firebase (Cloud Firestore)
 - Tailwind CSS
 - Figma
+- React Router
+- Material UI
 
 ## Creditation
 
