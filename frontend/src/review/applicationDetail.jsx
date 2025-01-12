@@ -18,7 +18,7 @@ export default function ApplicationDetail() {
       <NavBar></NavBar>
       <div className="flex flex-auto flex-col justify-center items-center">
         <div className="w-3/4 h-3/4 bg-dswdlightestblue p-16 flex flex-col">
-          <h1 className="text-4xl mb-2">
+          <h1 className="text-4xl mb-2 font-bold">
             {applicant.first_name} {applicant.last_name} details:
           </h1>
           <p className="text-2xl">Address: {applicant.address}</p>
