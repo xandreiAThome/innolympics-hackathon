@@ -13,7 +13,7 @@ export default function Applicant() {
     middlename: "",
     address: "",
     birthdate: "",
-    marital: "",
+    marital: "single",
     phone: "",
   });
 
@@ -120,6 +120,7 @@ export default function Applicant() {
                 id="marital"
                 onChange={handleChange}
                 className="p-2   bg-slate-200 rounded"
+                value={formData.marital}
               >
                 <option value="single">Single</option>
                 <option value="married">Married</option>
